@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Cat from "./Cat";
 
 function App() {
   const [colourName, setColourName] = useState("#fff222");
@@ -48,6 +49,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        <Cat />
         <div class="container">
           <h2>
             Background color:
