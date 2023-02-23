@@ -24,7 +24,7 @@ const Cat = () => {
   async function fetcHandler() {
     try {
       // async request to the server
-      const response = await fetch("http://aws.random.cat//meow");
+      const response = await fetch("//aws.random.cat//meow");
       //  data -> parsing response
       const data = await response.json();
 
